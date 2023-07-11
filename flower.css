@@ -9,6 +9,7 @@
     background: #E55473;
     padding: 20px 43px;
     border: 0;
+    color: #FFF;
 
 }
 
@@ -71,11 +72,67 @@
 }
 
 /* Body related Styles */
+
+/* 1st sec */
 .featured{
     margin-top: 178px;
     margin-bottom: 48px;
 }
 
 .featured-flowers{
+    align-items: center;
+}
+/* 2nd sec */
+.banner-sale{
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 429px 100px 240px;
+    border-radius: 8px;
+background: rgba(229, 84, 115, 0.05);
+}
+.sale-content{
+    align-content: center;
+    text-align: center;
+    padding: 130px 186px 62px 155px;
+}
+
+.sale-head{
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.sale-des{
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+/* 3rd sec insta */
+.insta{
+    padding: 50px 240px 0 240px;
+
+}
+.flowerbg{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.bg{
+    background-image: url('images/Rectangle\ 9.png');
+    border-radius: 8px;
+    margin: 125px 240px;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.email-field{
     align-items: center;
 }
